@@ -1,0 +1,43 @@
+{
+  "name": "moss-and-ember",
+  "displayName": "Moss & Ember",
+  "description": "A soft, warm light theme with olive greens, burnt oranges and parchment tones. Built on Solarized Autumn.",
+  "version": "0.1.0",
+  "publisher": "OliverFawcett",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OllyFawcett152/moss-and-ember.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OllyFawcett152/moss-and-ember/issues"
+  },
+  "homepage": "https://github.com/OllyFawcett152/moss-and-ember#readme",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light theme",
+    "autumn",
+    "warm",
+    "solarized"
+  ],
+  "galleryBanner": {
+    "color": "#8a9a5b",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Moss & Ember",
+        "uiTheme": "vs",
+        "path": "./themes/moss-and-ember-color-theme.json"
+      }
+    ]
+  }
+}
